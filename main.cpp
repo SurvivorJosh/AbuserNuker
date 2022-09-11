@@ -11,9 +11,9 @@
 
 using namespace std;
 void getUsers() {
-    ifstream input("C:\\Users\\ahana\\Downloads\\AbuserNuker\\bin\\Debug\\Scrape\\members.txt");
-    ifstream guild("C:\\Users\\ahana\\Downloads\\AbuserNuker\\bin\\Debug\\data\\guild.txt");
-    ifstream token("C:\\Users\\ahana\\Downloads\\AbuserNuker\\bin\\Debug\\data\\token.txt");
+    ifstream input("Scrape/members.txt");
+    ifstream guild("data/guild.txt");
+    ifstream token("data/token.txt");
     string str;
     string gu;
     string to;
